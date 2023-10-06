@@ -1,0 +1,61 @@
+.bg-img {
+    /* The image used */
+    background-image: url(https://i.pinimg.com/originals/8e/bb/76/8ebb7658da53c35029397e8da6f9dcfb.jpg);
+  
+    min-height: 90px;
+  
+    /* Center and scale the image*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin-top: 38px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(68, 61, 61);
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+   
+    padding: 15px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #9e4a4a;
+    color: black;
+  }
+  .overlay-image {
+    position: absolute;
+    margin-top: 40px;
+    top: 0;
+    left: 550px;
+    width: 6.25%; /* Set the width to cover the entire header */
+    height: 12.5%; /* Set the height to match the navigation bar height */
+    
+    z-index: 1; /* Ensure the image is on top of the background image */
+}
+/*Add black background*/
+.bg-img2 img{
+   height:100%;
+   width:100%;
+   opacity: 0.5;/* make background transparent*/
+}
