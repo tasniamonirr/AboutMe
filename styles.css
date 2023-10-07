@@ -24,6 +24,7 @@
   .topnav {
     overflow: hidden;
     background-color: rgb(68, 61, 61);
+    
   }
   
   /* Navbar links */
@@ -37,6 +38,7 @@
     font-size: 17px;
     font-weight: bolder;
     
+    
   }
   
   .topnav a:hover {
@@ -45,8 +47,8 @@
   }
   .overlay-image {
     position: absolute;
-  
-    top: 10%;
+    margin-top: 50px;
+    top: 0;
     left: 47%;
     width: 6.25%; /* Set the width to cover the entire header */
     height: auto; /* Set the height to match the navigation bar height */
@@ -60,17 +62,24 @@
    opacity: 0.5;/* make background transparent*/
    background-position: center;
    background-repeat: repeat-y;
-   
+   position:relative;
+
 }
+
+
 .image-text {
+ 
+  margin-top: 60px;
+  margin-left:10px;
+  margin-right:10px;
   position: absolute;
-  top: 30%;
+  top: 21%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2; /* Ensure the text is on top of the image */
   color: white; /* Text color */
-  font-size: 16px; /* Adjust the font size as needed */
+  font-size: 12px; /* Adjust the font size as needed */
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
-  padding: 5px 5px; /* Add padding for better visibility */
+  padding: 10px 10px; /* Add padding for better visibility */
 }
 
