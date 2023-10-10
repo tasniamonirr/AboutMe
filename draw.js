@@ -10,11 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
     ctx.fillStyle = "#16a8bd";
 
     // Draw a gray rectangle
-    roundedRect(ctx,0, 0, 250, 650,15);
+    roundedRect(ctx,0, 0, 300, 650,15);
    
     
     ctx.fillStyle = "#3A3535";
-    ctx.fillRect(0, 25, 250, 600)
+    ctx.fillRect(0, 25, 300, 600)
     //draw circle
     ctx.beginPath();
     ctx.arc(24, 12, 8, 0, 2 * Math.PI);
@@ -22,6 +22,28 @@ document.addEventListener("DOMContentLoaded", function () {
     ctx.fill();
     ctx.closePath();
 
+
+    //draw circle
+    ctx.beginPath();
+    ctx.arc(50, 12, 8, 0, 2 * Math.PI);
+    ctx.fillStyle = "#e7c24a"; // You can change the circle's color here
+    ctx.fill();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.arc(75, 12, 8, 0, 2 * Math.PI);
+    ctx.fillStyle = "#70e74a"; // You can change the circle's color here
+    ctx.fill();
+    ctx.closePath();
+
+    ctx.fillStyle = "green";
+    ctx.font = "16px monospace"; // Specify the font style and size
+
+    // Add text to the canvas
+    
+    ctx.fillText("Languages:", 50, 50); // ("Text", x, y)
+
+ 
     
 });
 // make rectangle corners rounded

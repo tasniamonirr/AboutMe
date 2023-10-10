@@ -17,7 +17,7 @@
   /* Position the navbar container inside the image */
   .container {
     position: absolute;
-    margin-top: 38px;
+    margin-top: 2.7%;
     width: auto;
   }
   
@@ -49,10 +49,10 @@
   .overlay-image {
     position: absolute;
     margin-top: 3.5%;
-    top: 0;
+    top: 0%;
     left: 47%;
-    width: 6.25%; /* Set the width to cover the entire header */
-    height: auto; /* Set the height to match the navigation bar height */
+    width: auto; /* Set the width to cover the entire header */
+    height: 12%; /* Set the height to match the navigation bar height */
     
     z-index: 1; /* Ensure the image is on top of the background image */
 }
@@ -70,22 +70,29 @@
 
 .image-text {
  
-  margin-top: 100px;
-  margin-left:10px;
-  margin-right:10px;
+  margin-top: 10%;
+  margin-left:50%;
+  margin-right:10%;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 22%;
+  
+  
   transform: translate(-50%, -50%);
   z-index: 1; /* Ensure the text is on top of the image */
   color: white; /* Text color */
   font-size: 12px; /* Adjust the font size as needed */
   background-color: rgba(58, 53, 53, 0.7); /* Semi-transparent background for readability */
-  padding-left: 25px; /* Add padding for better visibility */
-  padding-right: 25px;
+  padding-left: 1%; /* Add padding for better visibility */
+  
+  padding-right: 1%;
   border:1px solid rgb(255, 255, 255);
   font-size: x-large;
   font-family: monospace;
+  
+
+
+
+
 }
 .topnav{
 border:1px solid rgb(255, 255, 255);
@@ -94,7 +101,7 @@ border:1px solid rgb(255, 255, 255);
 
 
 #myCanvas{
-  top: 28%;;
+  top: 25%;
   left: 3%;
   z-index: 2;
   position:absolute;
