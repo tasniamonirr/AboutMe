@@ -70,7 +70,7 @@
 
 .image-text {
 
- 
+  
   margin-top: 18%;
   margin-left:50%;
   margin-right:10%;
@@ -109,6 +109,14 @@ border:1px solid rgb(255, 255, 255);
   
 
 }
+#myCanvas2{
+  top: 25%;
+  left: 75%;
+  z-index: 2;
+  position:absolute;
+  
+
+}
 
 
 
@@ -116,7 +124,7 @@ border:1px solid rgb(255, 255, 255);
   top:100%;
   left: 13%;
   position:absolute;
-  margin-top: 2.25%;
+  margin-top: 3.75%;
   z-index: 2;
   transform: translate(-50%, -50%);
 
