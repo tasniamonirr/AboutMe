@@ -113,11 +113,11 @@ border:1px solid rgb(255, 255, 255);
 
 
 .text-container {
-  top:75%;
+  top:100%;
   left: 13%;
   position:absolute;
-  margin-top: 3px;
-  z-index: 3;
+  margin-top: 2.25%;
+  z-index: 2;
   transform: translate(-50%, -50%);
 
 }

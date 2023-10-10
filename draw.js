@@ -57,7 +57,14 @@ document.addEventListener("DOMContentLoaded", function () {
     ctx.fillText("-MatLab", 50, 310); // ("Text", x, y)
     ctx.fillText("-R", 50, 330); // ("Text", x, y)
     ctx.fillText("-Assembly", 50, 350); // ("Text", x, y)
-    
+    ctx.fillText("Frameworks:", 50, 390); // ("Text", x, y)
+    ctx.fillText("-ASP.NET MVC", 50, 410); // ("Text", x, y)
+    ctx.fillText("-Angular", 50, 430); // ("Text", x, y)
+    ctx.fillText("-Bootstrap", 50, 450); // ("Text", x, y)
+    ctx.fillText("Databases:", 50, 490); // ("Text", x, y)
+    ctx.fillText("-MongoDB", 50, 510); // ("Text", x, y)
+    ctx.fillText("-MySQL", 50, 530); // ("Text", x, y)
+    ctx.fillText("-Oracle", 50, 550); // ("Text", x, y)
 
 
  
