@@ -42,6 +42,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add text to the canvas
     
     ctx.fillText("Languages:", 50, 50); // ("Text", x, y)
+    ctx.fillText("-JavaScript", 50, 70); // ("Text", x, y)
+    ctx.fillText("-Java", 50, 90); // ("Text", x, y)
+    ctx.fillText("-Python", 50, 110); // ("Text", x, y)
+    ctx.fillText("-C/C++", 50, 130); // ("Text", x, y)
+    ctx.fillText("-C#", 50, 150); // ("Text", x, y)
+    ctx.fillText("-Ruby", 50, 170); // ("Text", x, y)
+    ctx.fillText("-TypeScript", 50, 190); // ("Text", x, y)
+    ctx.fillText("-PHP", 50, 210); // ("Text", x, y)
+    
+
 
  
     
