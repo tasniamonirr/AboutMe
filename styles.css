@@ -11,6 +11,7 @@
   
     /* Needed to position the navbar */
     position: relative;
+    
   }
   
   /* Position the navbar container inside the image */
@@ -40,14 +41,14 @@
     
     
   }
-  
+/* change color on hover*/  
   .topnav a:hover {
     background-color: #9e4a4a;
     color: black;
   }
   .overlay-image {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 3.5%;
     top: 0;
     left: 47%;
     width: 6.25%; /* Set the width to cover the entire header */
@@ -73,10 +74,10 @@
   margin-left:10px;
   margin-right:10px;
   position: absolute;
-  top: 21%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2; /* Ensure the text is on top of the image */
+  z-index: 1; /* Ensure the text is on top of the image */
   color: white; /* Text color */
   font-size: 12px; /* Adjust the font size as needed */
   background-color: rgba(58, 53, 53, 0.7); /* Semi-transparent background for readability */
@@ -88,5 +89,15 @@
 }
 .topnav{
 border:1px solid rgb(255, 255, 255);
+
+}
+
+
+#myCanvas{
+  top: 28%;;
+  left: 3%;
+  z-index: 2;
+  position:absolute;
+  
 
 }
