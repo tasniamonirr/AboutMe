@@ -23,16 +23,16 @@ document.addEventListener("DOMContentLoaded", function () {
     ctx.closePath();
 
 
-    //draw circle
+    //draw circles
     ctx.beginPath();
     ctx.arc(50, 12, 8, 0, 2 * Math.PI);
-    ctx.fillStyle = "#e7c24a"; // You can change the circle's color here
+    ctx.fillStyle = "#e7c24a"; // yellow circle
     ctx.fill();
     ctx.closePath();
 
     ctx.beginPath();
     ctx.arc(75, 12, 8, 0, 2 * Math.PI);
-    ctx.fillStyle = "#70e74a"; // You can change the circle's color here
+    ctx.fillStyle = "#70e74a"; 
     ctx.fill();
     ctx.closePath();
 
@@ -50,12 +50,20 @@ document.addEventListener("DOMContentLoaded", function () {
     ctx.fillText("-Ruby", 50, 170); // ("Text", x, y)
     ctx.fillText("-TypeScript", 50, 190); // ("Text", x, y)
     ctx.fillText("-PHP", 50, 210); // ("Text", x, y)
+    ctx.fillText("-JSON", 50, 230); // ("Text", x, y)
+    ctx.fillText("-HTML", 50, 250); // ("Text", x, y)
+    ctx.fillText("-CSS", 50, 270); // ("Text", x, y)
+    ctx.fillText("-SQL", 50, 290); // ("Text", x, y)
+    ctx.fillText("-MatLab", 50, 310); // ("Text", x, y)
+    ctx.fillText("-R", 50, 330); // ("Text", x, y)
+    ctx.fillText("-Assembly", 50, 350); // ("Text", x, y)
     
 
 
  
     
 });
+
 // make rectangle corners rounded
 
 function roundedRect(ctx, x, y, width, height, radius) {
