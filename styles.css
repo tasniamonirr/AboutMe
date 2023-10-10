@@ -108,3 +108,29 @@ border:1px solid rgb(255, 255, 255);
   
 
 }
+
+
+
+.text-container {
+  top:69.5%;
+  left: 13%;
+  position:absolute;
+  margin-top: 3px;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+
+}
+
+.text {
+  font-size: 16px;
+  color: #f2f2f2;
+}
+
+.blinking-cursor {
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
