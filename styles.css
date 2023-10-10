@@ -69,14 +69,15 @@
 
 
 .image-text {
+
  
-  margin-top: 10%;
+  margin-top: 18%;
   margin-left:50%;
   margin-right:10%;
   position: absolute;
-  top: 22%;
-  
-  
+  top: 10%;
+  width: auto;
+ 
   transform: translate(-50%, -50%);
   z-index: 1; /* Ensure the text is on top of the image */
   color: white; /* Text color */
