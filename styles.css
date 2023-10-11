@@ -112,7 +112,7 @@ border:1px solid rgb(255, 255, 255);
   top:10%;
   left: 12%;
   position:absolute;
-  margin-top: 98vh;
+  margin-top: 94vh;
   z-index: 1;
   
 
@@ -146,7 +146,7 @@ border:1px solid rgb(255, 255, 255);
   width: 300;
   height: 100%;
   position: absolute;
-  top: 5%;
+  top: 0%;
   left: 2%;
   margin-top: 18vh;
 }
@@ -154,8 +154,8 @@ border:1px solid rgb(255, 255, 255);
   width: 300;
   height: 100%;
   position: absolute;
-  top: 5%;
-  left: 75%;
+  top: 0;
+  left: 73%;
   margin-top: 18vh;
 
   
