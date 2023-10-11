@@ -70,13 +70,13 @@
 
 .image-text {
 
-  margin-top: 15vh;
+  margin-top: 21vh;
   /*margin-top: 18%;*/
-  margin-left:26%;
+  margin-left:30%;
   margin-right:30%;
   position: absolute;
-  top: 10%;
-  width: 45%;
+  top: 5%;
+  max-width: 600px;
  transform: (-50%);
   /*transform: translate(-50%, -50%);*/
 
@@ -103,32 +103,14 @@ border:1px solid rgb(255, 255, 255);
 }
 
 
-#myCanvas{
-  top: 25%;
-  left: 3%;
-  z-index: 1;
-  position:absolute;
-  
-
-}
-#myCanvas2{
-  top: 25%;
-  left: 75%;
-  z-index: 1;
-  position:absolute;
-  
-
-}
-
-
 
 .text-container {
-  top:100%;
+  top:10%;
   left: 10%;
   position:absolute;
-  margin-top: 3.75%;
-  z-index: 2;
-  transform: translate(-50%, -50%);
+  margin-top: 12vh;
+  z-index: 1;
+  
 
 }
 
@@ -145,4 +127,32 @@ border:1px solid rgb(255, 255, 255);
 @keyframes blink-caret {
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
+}
+
+.canvas-container {
+  width: 100%;
+  height: 10vh;
+  
+  z-index: 1;
+  
+  
+}
+
+#myCanvas{
+  width: 300;
+  height: 100%;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  margin-top: 18vh;
+}
+#myCanvas2 {
+  width: 300;
+  height: 100%;
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  margin-top: 18vh;
+
+  
 }
