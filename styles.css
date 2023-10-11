@@ -70,24 +70,26 @@
 
 .image-text {
 
-  
-  margin-top: 18%;
-  margin-left:50%;
-  margin-right:10%;
+  margin-top: 15vh;
+  /*margin-top: 18%;*/
+  margin-left:26%;
+  margin-right:30%;
   position: absolute;
   top: 10%;
-  width: auto;
- 
-  transform: translate(-50%, -50%);
+  width: 45%;
+ transform: (-50%);
+  /*transform: translate(-50%, -50%);*/
+
   z-index: 1; /* Ensure the text is on top of the image */
   color: white; /* Text color */
-  font-size: 12px; /* Adjust the font size as needed */
+
+  font-size: 1.5vw; /* Adjust the font size as needed 12px*/
   background-color: rgba(58, 53, 53, 0.7); /* Semi-transparent background for readability */
   padding-left: 1%; /* Add padding for better visibility */
   
   padding-right: 1%;
   border:1px solid rgb(255, 255, 255);
-  font-size: x-large;
+  /*font-size: 2.5vw;*/
   font-family: monospace;
   
 
@@ -104,7 +106,7 @@ border:1px solid rgb(255, 255, 255);
 #myCanvas{
   top: 25%;
   left: 3%;
-  z-index: 2;
+  z-index: 1;
   position:absolute;
   
 
@@ -112,7 +114,7 @@ border:1px solid rgb(255, 255, 255);
 #myCanvas2{
   top: 25%;
   left: 75%;
-  z-index: 2;
+  z-index: 1;
   position:absolute;
   
 
@@ -133,6 +135,7 @@ border:1px solid rgb(255, 255, 255);
 .text {
   font-size: 16px;
   color: #f2f2f2;
+  position:relative;
 }
 
 .blinking-cursor {
